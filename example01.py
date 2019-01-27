@@ -11,10 +11,13 @@ p.start(2.5)
 try:
     while True:
         p.ChangeDutyCycle(7.5)
+        print("7.5")
         time.sleep(1)
         p.ChangeDutyCycle(12.5)
+        print("8")
         time.sleep(1)
         p.ChangeDutyCycle(2.5)
+        print("7")
         time.sleep(1)
         print("Done loop")
 
